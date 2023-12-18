@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arthematic Operaters</h1>
+
+    <H4>
+    <?php  
+          /*   Arthematic Operaters */
+     $demo1 = 10; 
+     $demo2 = 20;
+
+    echo " 10 + 20 =  "; //ADDITION +
+    echo $demo1 + $demo2;
+    echo "  Addition. "; 
+
+    echo "<br>"; // FOR LINE BREAK
+
+    echo " 10  - 20 = "; // subtraction - 
+    echo $demo1 - $demo2; 
+    echo "  subtraction. "; 
+    
+    echo "<br>"; // FOR LINE BREAK
+
+
+    echo "10  %  20 ="; //MODULUS %
+    echo $demo1 % $demo2; 
+    echo "  Modulus. ";  
+
+    echo "<br>"; // FOR LINE BREAK
+
+    echo " 10  / 20 = "; // Division /
+    echo $demo1 ** $demo2; 
+    echo "  Division. ";
+
+    
+    echo "<br>"; // FOR LINE BREAK
+
+
+    echo "10 * 20 = "; // Multiplication *
+    echo $demo1 * $demo2; 
+    echo "  Multiplication. ";  
+
+    echo "<br>"; // FOR LINE BREAK
+
+    echo " 10  ** 20 = "; // Exponention **
+    echo $demo1 ** $demo2; 
+    echo "  Exponention. "; 
+    ?> </H4>
+<br> 
+
+    <H1>Assigment Operater </H1>
+    <h4>
+    <?php  
+                 /*Assigement Operaters */
+    $x = 10;
+    $y = 10;
+    $z = 10;    
+    $a = 10;
+    $b = 10;
+ 
+ 
+    $x -= 2;    // subtraction - 
+    $y += 2;    //ADDITION +
+    $z /= 2;    // Division /
+    $a *= 2;    //Multiplication *
+    $b %= 2;    //MODULUS %
+
+    echo "X = 10 - 2 = $x Subtraction <br>";
+    echo "Y = 10 + 2 = $x Addition <br>"; 
+    echo "Z = 10 / 2 = $x Division <br>";
+    echo "A = 10 * 2 = $x Multiplication <br>";
+    echo "B = 10 % 2 = $x MODULUS <br>";
+    ?></h4>
+   
+</body>
+</html>
